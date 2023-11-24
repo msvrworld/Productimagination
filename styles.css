@@ -1,0 +1,32 @@
+/* Styles for chat window */
+.chat-container {
+  width: 300px;
+  height: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.chat-box {
+  height: 80%;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
